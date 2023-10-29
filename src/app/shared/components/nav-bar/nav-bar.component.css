@@ -1,0 +1,24 @@
+.logoUtl{
+    display: flex;
+}
+.titulo1{
+    padding-top: 3%;
+    font-weight: 700;
+    color: #0d7b5c;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+}
+
+
+.imagen-rotativa {
+    animation: rotar 5s linear infinite;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
