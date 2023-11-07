@@ -5,8 +5,8 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
-      import(`./modules/somos-utl/somos-utl.module`).then(
-        (m) => m.SomosUtlModule
+      import(`./modules/soy-aspirante/soy-aspirante.module`).then(
+        (m) => m.SoyAspiranteModule
       ),
   },
 ];
