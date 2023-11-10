@@ -20,22 +20,32 @@ export class NavBarComponent {
       {
         nombre:'¿Quiénes Somos',
         icono:'uil uil-comment-question',
-        router:['/']
+        router:['/','about']
+      },
+      {
+        nombre:'Mensaje Institucional',
+        icono:'uil uil-comment-message',
+        router:['/','mensaje']
       },
       {
         nombre:'Normativa',
         icono:'uil uil-file-bookmark-alt',
-        router:['/']
+        router:['/','normativa']
       },
       {
         nombre:'Contactanos',
         icono:'uil uil-envelope-minus',
-        router:['/']
+        router:['/','contactanos']
       },
       {
         nombre: 'Noticias',
         icono:'uil uil-newspaper',
-        router:['/']
+        router:['/','noticias']
+      },
+      {
+        nombre: 'UTL',
+        icono:'uil uil-create-dashboard',
+        router:['/','UTL']
       }
     ];
   }
